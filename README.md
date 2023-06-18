@@ -23,5 +23,5 @@
 - Javascript
 
 ## 改良予定
-・回数列の追加
-・デザインの修正(table headerの幅を固定等)
+- 回数列の追加
+- デザインの修正(table headerの幅を固定等)
