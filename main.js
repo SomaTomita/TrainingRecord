@@ -25,6 +25,7 @@ class TrainingRecord {
             this.addEntry({
                 date: `${ year }-${ month }-${ day }`,
                 workout:'',
+                times : 5,
                 set : 5,
                 weight : 10,
                 duration: 30
@@ -40,6 +41,7 @@ class TrainingRecord {
                     <tr>
                         <th>Date</th>
                         <th>Workout</th>
+                        <th>Times</th>
                         <th>Set</th>
                         <th>weight</th>
                         <th>Duration</th>
@@ -65,7 +67,11 @@ class TrainingRecord {
                     <input type="date" class="record__date">
                 </td>
                 <td>
-                    <input class="record__workout txt__limit" type="text" placeholder="種目を入力">
+                    <input class="record__workout txt__limit" type="text" placeholder="enter training type">
+                </td>
+                <td>
+                    <input type="number" class="record__times">
+                    <span class="record__text__times">times</span>
                 </td>
                 <td>
                     <input type="number" class="record__set">
@@ -118,6 +124,7 @@ class TrainingRecord {
             // それぞれの入力要素をinputからの値をdata.~~に設定。
             row.querySelector(".record__date").value = data.date;
             row.querySelector(".record__workout").value = data.workout;
+            row.querySelector(".record__times").value = data.times;
             row.querySelector(".record__set").value = data.set;
             row.querySelector(".record__weight").value = data.weight;
             row.querySelector(".record__duration").value = data.duration;
@@ -131,6 +138,11 @@ class TrainingRecord {
 
             row.querySelector(".record__workout").addEventListener("change", ({ target }) => {
                 data.workout = target.value;
+                this.saveEntries();
+            });
+
+            row.querySelector(".record__times").addEventListener("change", ({ target }) => {
+                data.times = target.value;
                 this.saveEntries();
             });
 

@@ -5,7 +5,7 @@
 .record {
     font-size: 14px;
     border-collapse: collapse;
-    width: 658.91px;
+    width: 749.91px;
 }
 
 
@@ -52,6 +52,7 @@
 
 .record__date,
 .record__workout,
+.record__times,
 .record__set,
 .record__weight,
 .record__duration {
@@ -66,14 +67,16 @@
 }
 
 .record__set,
+.record__times,
 .record__weight,
 .record__duration {
     width: 5em;
-    text-align: center;
+    text-align: left;
 }
 
+.record__text__times,
 .record__text__set,
-.record__text__kg,
+.record__text__weight,
 .record__text__minutes {
     text-align: right;
 }
@@ -123,7 +126,7 @@
 
 .twitter {
     text-align: right;
-    width: 658.91px;
+    width: 680.00px;
 }
 
 .tweet__icon {
