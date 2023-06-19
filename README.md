@@ -1,9 +1,9 @@
 # TrainingRecord
-![スクリーンショット 2023-06-18 21 45 47](https://github.com/SomaTomita/TrainingRecord/assets/134721775/4c39b7de-34b2-4ec7-a45b-956deaa3f081)
+![trainingrecord_home](https://github.com/SomaTomita/TrainingRecord/assets/134721775/4e206f6a-31f9-4523-9289-024c921e9a29)
 # Add Entry
-![スクリーンショット 2023-06-18 21 47 11](https://github.com/SomaTomita/TrainingRecord/assets/134721775/2cebe215-6fd7-4db5-8d4b-184f107d5dd7)
+![trainingrecord_addentry](https://github.com/SomaTomita/TrainingRecord/assets/134721775/3164e21f-bde0-431c-8abe-6a969ea28842)
 # Record
-![スクリーンショット 2023-06-18 21 48 53](https://github.com/SomaTomita/TrainingRecord/assets/134721775/90a005a6-1736-468d-b5e8-83bbbbbc4d6c)
+![trainingrecord_record](https://github.com/SomaTomita/TrainingRecord/assets/134721775/7d8a5f12-7d26-4d32-a145-0b97e6c3179d)
 
 
 
