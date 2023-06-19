@@ -3,7 +3,7 @@
 # Add Entry
 ![trainingrecord_addentry](https://github.com/SomaTomita/TrainingRecord/assets/134721775/3164e21f-bde0-431c-8abe-6a969ea28842)
 # Record
-![trainingrecord_record](https://github.com/SomaTomita/TrainingRecord/assets/134721775/7d8a5f12-7d26-4d32-a145-0b97e6c3179d)
+![trainingrecord_record](https://github.com/SomaTomita/TrainingRecord/assets/134721775/011ba57f-6114-4256-a946-41823f4768c5)
 
 
 
