@@ -104,14 +104,15 @@ class TrainingRecord {
 
     // this.entries 配列のデータをもとに、表の追加、削除、データの変更が反映され、最新の情報が表示。
     updateView() {
-        // this.root要素内からrecord__entriesを取得(テーブル本体の要素)し、tableBodyへ代入。
+        // this.root要素内からrecord__entriesを取得(date、workout等が書かれた表とaddentryの間のテーブル本体の要素)し、tableBodyへ代入。
         const tableBody = this.root.querySelector(".record__entries");
         // dataを引数として受けとるaddRow関数の定義。(新しい行をテーブルに追加)
         const addRow = data => {
-            // 1行のrowHtml構造を保存。
+            // TrainingRecord.rowHtml().trim() を使用して、行のtemplateを文字列として取得し、それを <template> 要素の中に挿入。
+            // templateは静的な HTML の断片を保持し、それをコピーして必要な数の行を追加するために複数回使用される。
             const template = document.createElement("template");
-            //  template.content.firstElementChild を介して新しい行要素を一時的に保持するための変数を初期化。
-            //  row変数を通じて行要素を編集可。(テンプレート自体は変更せず。)
+            //  template.content.firstElementChild を介して新しい行要素rowHtml()を一時的に保持するための変数を用意。
+            // <template> 要素内のコンテンツを表す DOM ツリーのフラグメントで直接操作できないため、一時的な変数を使うことで、後続の操作において、テンプレート内の特定の要素にアクセス可能に。
             let row = null;
             
             // templateにrowHtmlを追加。
