@@ -74,13 +74,6 @@
     text-align: left;
 }
 
-.record__text__times,
-.record__text__set,
-.record__text__weight,
-.record__text__minutes {
-    text-align: right;
-}
-
 .record__button {
     display: flex;
     align-items: center;
