@@ -1,5 +1,3 @@
-
-
 class TrainingRecord {
     //下記2のインスタンス(loadEntriesとupdateView)の繰り返しがなくなる。
     static LOCAL_STORAGE_DATA_KEY = "training-record-entries";
@@ -15,6 +13,7 @@ class TrainingRecord {
 
         // Add Entry+ ボタンをクリック時、下記コールバック関数を実行。
         this.root.querySelector(".record__add").addEventListener("click", () => {
+            const date = new Date();
             // 現在の年を4桁の数字として取得しyear変数へ。
             const year = date.getFullYear();
             // getmonthメソッドに1をインクリメントして、1ベースの値に変換。
