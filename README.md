@@ -1,3 +1,6 @@
+## URL
+https://somatomita.github.io/TrainingRecord/
+
 # TrainingRecord
 ![trainingrecord_home](https://github.com/SomaTomita/TrainingRecord/assets/134721775/4e206f6a-31f9-4523-9289-024c921e9a29)
 # Add Entry
